@@ -1,0 +1,184 @@
+body{
+    background-color: #D8E3E7 ;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+h1{
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto 30px auto ;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+    text-decoration: underline;
+    border-bottom: 5px solid #474744;
+}
+
+button{
+    font-family: 'Gloria Hallelujah', cursive;
+    border: 2px solid #474744;
+}
+
+.buttonsTop{
+
+    background-color: #65EEB7;
+    text-align: center;
+    width: 65%;
+    height: 75px;
+    position: relative;
+    margin: 0 auto 10px auto;
+    padding-top: 30px;
+    border: 3px solid #474744;
+    border-radius: 50px;
+    
+
+}
+
+.buttonsTop button{
+
+    border-radius: 50%;
+    background-color: #F4F4F4;
+    height: 55px;
+    width: 55px;
+    margin-right: 8px;
+    font-size: 1.1rem;
+
+}
+.buttonsBottom{
+    background-color: #65EEB7;
+    text-align: center;
+    width: 65%;
+    height: 75px;
+    position: relative;
+    margin: 0 auto 10px auto;
+    padding-top: 30px;
+    border: 3px solid #474744;
+    border-radius: 50px;
+    
+
+}
+.buttonsBottom button{
+
+    border-radius: 50%;
+    background-color: #F4F4F4;
+    height: 55px;
+    width: 55px;
+    margin-right: 8px;
+    font-size: 1.1rem;
+    
+}
+.man{
+    width: 60%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+
+}
+.man img{
+    width: 38%;
+    height: 400px;
+    border: 3px solid #474744;
+    
+}
+
+.wordBox{
+    position: absolute;
+    right: 10%;
+    top: 250px;
+    background-color: #F4F4F4 ;
+    width: 300px;
+    padding: 10px 130px 10px 20px;
+    text-align: center;
+    border: 3px solid #474744;
+
+}
+.word {
+    font-size: 1.4rem;
+    text-decoration: underline;
+    margin-left: 33%;
+    
+    
+    
+}
+
+.clue{
+    font-size: 1.4rem;
+    text-decoration: underline;
+    margin-left: 33%;
+}
+
+footer{
+    
+    background-color: #474744;
+    width: 90%;
+    height: 85px;
+    position: relative;
+    margin: 20px auto 0 auto;
+    padding-top: 15px;
+    border-radius: 50px;
+
+
+}
+footer p{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Architects Daughter', cursive;
+    color: #F4F4F4;
+    
+}
+
+.remove{
+    display: none;
+}
+
+.letter0 , .letter1 , .letter2 , .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9, .letter10 {
+    display: inline;
+    margin-left: .5em;
+    color: transparent;
+}
+
+
+   .clue{
+       visibility: hidden;
+       text-decoration: none;
+   }
+   .getClue{
+    display: block;
+    margin-left: 55%;
+   }
+
+   .startMessage, .createMessage{
+    text-align: center;
+    height: 330px;
+    width: 30%;
+    background-color: #FF5722;
+    position: absolute;
+    top: 150px;
+    left: 34%;
+    padding-top: 4%;
+    border-radius: 80px;
+    border: 3px solid #474744;
+    
+   }
+   .startMessage p , .createMessage p {
+       font-size: 1.3rem;
+   }
+   .startMessage button, .createStart{
+       width: 80px;
+       height: 40px;
+       font-size: 1rem;
+       
+   }
+
+   .createMessage input{
+       height: 25px;
+       border: 2px solid #474744;
+       text-align: center;
+       
+   }
+   .inputStart{
+       margin-top: 30px;
+       display: block;
+       margin-left: 40%;
+   }
+   .createMessage{
+       visibility: hidden;
+   }
