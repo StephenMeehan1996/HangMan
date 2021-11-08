@@ -35,7 +35,7 @@ for(var i = 1; i < 27; i++){
 
 });
 
-function createWord(){  // Put in letter limit, convert to all caps string. 
+function createWord(){  
 
         document.querySelector(".startMessage").style.visibility = "hidden";
         document.querySelector(".createMessage").style.visibility = "visible";
@@ -92,7 +92,7 @@ function letterCompare(){
                 document.querySelector(".letter" + i).style.color = "black";
                 document.querySelector("." +pressedButton).classList.add("remove");
         }
-        else if(pressedButton != document.querySelector(".letter" + i).innerHTML){   // very jank , number of letter in word get added to counter every loop// // bool may fix this , fix bug 
+        else if(pressedButton != document.querySelector(".letter" + i).innerHTML){   
                 falseCheck++;
                 document.querySelector("." +pressedButton).classList.add("remove");
         }
@@ -104,7 +104,7 @@ function letterCompare(){
                 document.querySelector(".pic").src = "images/man" + (lives +1) + ".png";
     }
 
-    if(correctCount == wordArray.length){  // bug , win message appears before final letter is visabile 
+    if(correctCount == wordArray.length){  
                 var audio = new Audio("sounds/win.wav");
                 audio.play();
                 winMessage = "&#127880; Well Done you have Won &#127880;";
